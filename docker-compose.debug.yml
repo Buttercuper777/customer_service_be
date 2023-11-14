@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  customersservice:
+    image: customersservice
+    build:
+      context: .
+      dockerfile: ./Dockerfile
